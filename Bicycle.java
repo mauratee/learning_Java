@@ -40,8 +40,10 @@ class BicycleDemo {
         bike1.printStates();
         bike1.speedUp(2);
         bike1.printStates();
+        bike1.changeCadence(45);
+        bike1.printStates();
 
-        bike2.changeCadence(50);
+        bike2.changeCadence(60);
         bike2.printStates();
         bike2.speedUp(10);
         bike2.printStates();
