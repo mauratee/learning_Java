@@ -56,5 +56,10 @@ class BicycleDemo {
         bike3.changeCadence(35);
         bike3.printStates();
 
+        // print class names of bike variables
+        System.out.println(bike3.getClass().getSimpleName());
+        System.out.println(bike2.getClass().getSimpleName());
+        System.out.println(bike1.getClass().getSimpleName());
+
     }
 }
