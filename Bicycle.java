@@ -35,6 +35,7 @@ class BicycleDemo {
         
         Bicycle bike1 = new Bicycle();
         Bicycle bike2 = new Bicycle();
+        MountainBike bike3 = new MountainBike();
 
         bike1.changeCadence(50);
         bike1.printStates();
@@ -51,6 +52,9 @@ class BicycleDemo {
         bike2.printStates();
         bike2.applyBrakes(15);
         bike2.printStates();
+
+        bike3.changeCadence(35);
+        bike3.printStates();
 
     }
 }
