@@ -1,4 +1,6 @@
 // // #### GENERAL #### //
+
+// Java is STATICALLY-TYPED which means variables must be declared
 // Whitespace doesn't have syntax meaning
 // Semicolons
 // => Use after expressions, method calls, variable declarations
@@ -34,3 +36,35 @@
 
 
 // // #### DATA TYPES #### //
+
+// Primitive Data Types
+// byte
+// => an 8-bit signed two's complement integer
+// => minimum value is -128
+// => maximum value 127 (inclusive)
+// => useful for saving memory in large arrays
+// short
+// int
+// long
+// => ends in "L"
+// float
+// double
+// boolean
+// char
+// => a single 16-bit Unicode character
+
+// String class
+// from java.lang.String
+// => create a new String object by enclosing character string in double quotes
+// => String objects are immutable
+// => not technically a primitive data types
+
+// Fields that are declared but not initialized will be set to
+// a default value, usually 0 or null. Relying on default values
+// is considered bad programming style
+
+// Local variables will not have a default value assigned if not initialized.
+
+
+
+
